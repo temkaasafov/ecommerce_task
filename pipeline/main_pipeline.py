@@ -1,4 +1,4 @@
-from pipeline.extract import Extract_From_Zip
+from extractors import Extract_From_Zip
 
 
 def run_pipeline():
