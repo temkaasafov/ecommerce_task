@@ -3,20 +3,20 @@ to start you need to
 
 For Linux
 
-# Synchronize packages via uv
+Synchronize packages via uv
 uv sync
 
-# Activate virtual environment if needed
+Activate virtual environment if needed
 source .venv/bin/activa
 
 For Windows
 
-# Synchronize packages via uv
+Synchronize packages via uv
 uv sync
 
-# Activate virtual environment if needed
+Activate virtual environment if needed
 .venv\Scripts\activate.bat
-# Or .venv\Scripts\Activate.ps1 for powershell
+Or .venv\Scripts\Activate.ps1 for powershell
 
 2. generate data using data_generator.py
 3. start the database using 'docker compose up -d'
